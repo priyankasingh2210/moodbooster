@@ -10,14 +10,18 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListViewAdapter extends ArrayAdapter<Thoughts>{
+/**
+ * Adapter class for listview.
+ */
 
-    private final ArrayList<Thoughts> thoughtes;
+public class ListViewAdapter extends ArrayAdapter<Thought>{
+
+    private final ArrayList<Thought> thoughtes;
     private final Context context;
 
-    public ListViewAdapter(Context context, int resource, List<Thoughts> objects) {
+    public ListViewAdapter(Context context, int resource, List<Thought> objects) {
         super(context, resource, objects);
-        this.thoughtes = (ArrayList<Thoughts>) objects;
+        this.thoughtes = (ArrayList<Thought>) objects;
         this.context = context;
 
     }
@@ -28,9 +32,9 @@ public class ListViewAdapter extends ArrayAdapter<Thoughts>{
     }
 
     @Override
-    public Thoughts getItem(int position) {
-        Thoughts thoughts = thoughtes.get(position);
-        return thoughts;
+    public Thought getItem(int position) {
+        Thought thought = thoughtes.get(position);
+        return thought;
     }
 
     @Override

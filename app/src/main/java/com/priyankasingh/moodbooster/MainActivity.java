@@ -9,11 +9,14 @@ import android.widget.ListView;
 
 import java.util.ArrayList;
 
+/**
+ * Main activity which shows 5 ways to boost your mood.
+ */
 public class MainActivity extends AppCompatActivity {
 
-
-    ListView listView;
-    ArrayList<Thoughts> thoughtList;
+    protected ListView listView;
+    protected ArrayList<Thought> thoughtList;
+    private int REQUEST_DETAIL = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,17 +35,26 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void openDetails(Thoughts thought) {
-        Intent intent = new Intent(this,ScrollingActivity.class);
-        intent.putExtra(ScrollingActivity.KEY_THOUGHT, thought);
-        startActivityForResult(intent,0);
+    /**
+     * Creates an Intent to open detailActivity with thought as parameter
+     * @param thought
+     */
+    private void openDetails(Thought thought) {
+        Intent intent = new Intent(this,DetailActivity.class);
+        intent.putExtra(DetailActivity.KEY_THOUGHT, thought);
+        startActivityForResult(intent, REQUEST_DETAIL);
     }
 
-    private ArrayList<Thoughts> getData() {
-        ArrayList<Thoughts> thoughtList = new ArrayList<>();
+
+    /**
+     * Populates the static data in-memory to show in list view
+     * @return
+     */
+    private ArrayList<Thought> getData() {
+        ArrayList<Thought> thoughtList = new ArrayList<>();
         for(int i=1;i<=5;i++){
-            Thoughts thoughts = new Thoughts(i);
-            thoughtList.add(thoughts);
+            Thought thought = new Thought(i);
+            thoughtList.add(thought);
         }
         return thoughtList;
     }
