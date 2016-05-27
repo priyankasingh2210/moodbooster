@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">MoodBooster</string>
+    <string name="title1">Exercise every day</string>
+    <string name="title2">Be grateful</string>
+    <string name="title3">Get enough sleep</string>
+    <string name="title4">Keep your blood sugar steady</string>
+    <string name="title5">Eat foods that nourish your brain</string>
+
+    <string name="description1">Exercising for 30 minutes, three times a week has become outdated.
+        While any exercise is good exercise, it’s more impactful to get moving, any way you can,
+        every single day. Even just a brisk, short walk will energise you, help you sleep better
+        and improve your mood.\n
+
+        A University of Vermont study found that riding a stationary bicycle for just 20 minutes
+        in the morning boosted mood and improved the ability to handle stress for a full 12 hours
+        afterwards. The people who had exercised also reported less tension, anger, fatigue and
+        symptoms of depression. For just twenty minutes of activity, that’s a major return
+        on your investment!
+    </string>
+
+    <string name="description2">Numerous studies have shown an association between gratitude
+        practices and well-being. Every night, right before I fall asleep, I do the ‘What Went
+        Well’ exercise created by the father of positive psychology, Dr. Martin Seligman. I think
+        of three things that ‘went well that day, reliving them in my mind and feeling the related
+        good feelings. I also say a prayer of thanks for the things I’m grateful for. One of my
+        coaching clients adds to this by writing in a journal one thing she is proud of having
+        done that day, and one thing that she is looking forward to the next day. Create a
+        gratitude ritual that works for you, as it will add richness and joy to your life.
+    </string>
+    <string name="description3">If you’re moody and irritable and routinely get less than seven
+        hours sleep, there is a strong possibility that lack of sleep is the cause of your
+        grumpiness. The less sleep you get, the more likely you are to feel stressed, sad, angry
+        or exhausted. Make getting enough sleep a top priority, and you will be delighted by how
+        much better you and your life feel.\n
+
+        If you’re struggling to sleep well, here are some top tips on how you can get a better
+        night’s sleep.
+    </string>
+    <string name="description4">To feel good throughout the day, make it a practice to never let
+        yourself get too hungry, and avoid meals and snacks made from refined flours or sugary
+        foods. Simple sugars and carbohydrates (like white flour and white sugar) cause your blood
+        sugar to quickly spike and then crash, dragging your mood down in the process.\n
+
+        Here are some tasty, healthy breakfasts to kickstart your day.
+    </string>
+
+    <string name="description5">Fatty fish like salmon, rich in omega-3 fatty acids, promote a
+        healthy brain and better mood. I eat lots of fish and additionally take a wild salmon oil
+        supplement. Eating a Mediterranean diet rich in fish, olive oil, legumes, vegetables and
+        high-fibre grains is known to be wonderful for brain health and associated with reduced
+        rates of low mood and depression.\n
+
+        A final word: if you have been frequently experiencing a low mood, be sure to see your
+        doctor. These tips are all useful for boosting mood but they are not designed to replace
+        the care of a physician or psychologist.
+
+    </string>
+
+
+</resources>
